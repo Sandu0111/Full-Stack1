@@ -1,0 +1,93 @@
+
+.container-fluid{
+  
+ 
+    height: 100vh;
+    width: 100vh;
+    align-items: center;
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+  
+}
+.form-container{
+     margin: auto;
+    margin-top: 20px;
+    height: 60vh;
+    width: 80vh;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+border-radius: 6px;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+}
+.input img{
+
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.input input{
+    background: transparent;
+    width: 400px;
+    border: none;
+    outline: none;
+ 
+    font-size: 18px;
+}
+.input input:hover{
+
+    background: transparent;
+}
+.text{
+    color:black;
+    font-size: 36px;
+    font-weight: 700;
+}
+.underline{
+    margin-top: 10px;
+    width: 80vh;
+    height: 6px;
+    background: black;
+
+}
+.forgot-credentials{
+    margin-top: 25px;
+    color: black;
+    font-size: 18px;
+
+}
+.forgot-credentials span{
+    color: #1434A4;
+    cursor: pointer;
+
+}
+.btn{
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 90px;
+    color: black;
+}
+.submit-container{
+    margin-top: 10px;
+}
